@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Marauders</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1a1a1a;
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+      background: #333;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .card {
+      background: #222;
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .card h2 {
+      margin: 15px 0 10px;
+      font-size: 1.5rem;
+      color: #f5c542;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #ddd;
+    }
+
+    footer {
+      background: #333;
+      padding: 15px;
+      font-size: 0.9rem;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Marauders Gallery</h1>
+  </header>
+
+  <section class="gallery">
+    <div class="card">
+      <img src="The Marauders.jpg" alt="Marauders Party">
+      <h2>Party Nights</h2>
+      <p>The Marauders celebrating together at a lively party, showing their carefree and mischievous side.</p>
+    </div>
+
+    <div class="card">
+      <img src="art creds_ insta @saraabii_.jpg" alt="Marauders on Tree">
+      <h2>Adventures in the Woods</h2>
+      <p>The group hanging out on their favorite tree, enjoying nature and each other’s company.</p>
+    </div>
+
+    <div class="card">
+      <img src="marauders.jpg" alt="Marauders Group Photo">
+      <h2>Friendship & Memories</h2>
+      <p>A warm group photo capturing the Marauders with their closest friends, symbolizing loyalty and fun.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Artwork credits to their respective artists • Fanart inspired by the Marauders era</p>
+  </footer>
+</body>
+</html>
