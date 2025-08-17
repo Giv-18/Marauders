@@ -2,7 +2,7 @@
   "name": "Marauders Life",
   "short_name": "Marauders",
   "description": "Life story of the Marauders",
-  "start_url": "/index.html",
+  "start_url": "../index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#4a90e2",
